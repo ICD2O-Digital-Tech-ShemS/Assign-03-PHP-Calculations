@@ -27,11 +27,8 @@
         <input type="number" step="any" id="X1int" placeholder="X1int">
         <label for="X2int">X2</label>
         <input type="number" step="any" id="X2int" placeholder="X2int">
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()">
-          Calculate
-        </button>
+        <br><br>
+        <input type="submit" value="Calculate">
 		</form>
 
 			<iframe id="result" name="result">			
