@@ -31,11 +31,9 @@
         <input type="submit" value="Calculate">
 		</form>
 
-			<iframe id="result" name="result">			
-        <div id="user-info">
+			<iframe id="result" name="result">
           <div id="$slope"></div>
           <div id="$calculation"></div>
-        </div>
 	    </iframe>
 	</body>
 </html>
