@@ -16,7 +16,7 @@
     <h1>m = (y2 - y1)/(x2 - x1)</h1>";
 		?>
 		<!-- form to get the base and height from the user -->
-    <form action="result.php" method="post" target="result">
+    <form action="./result.php" method="post" target="results">
         <p>Rise</p>
         <label for="Y1int">Y1</label>
         <input type="number" step="any" id="Y1int" placeholder="Y1int">
@@ -31,9 +31,10 @@
         <input type="submit" value="Calculate">
 		</form>
 
-			<iframe id="result" name="result">
-          <div id="$slope"></div>
+			<iframe id="results" name="results">			
+        <div id="$slope"></div>
           <div id="$calculation"></div>
 	    </iframe>
+	</body>
 	</body>
 </html>
