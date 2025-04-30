@@ -29,7 +29,7 @@
         <input type="number" step="any" id="X2int" placeholder="X2int">
 		</form>
     <br><br>
-        <input type="submit" value="Calculate">
+        <input type="submit" value="Calculate slpoe">
 
 			<iframe id="results" name="results">			
         <div id="$slope"></div>
