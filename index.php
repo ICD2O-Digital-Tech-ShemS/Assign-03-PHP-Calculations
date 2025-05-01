@@ -27,13 +27,12 @@
         <input type="number" step="any" id="X1int" placeholder="X1int">
         <label for="X2int">X2</label>
         <input type="number" step="any" id="X2int" placeholder="X2int">
-		</form>
-    <br><br>
+        <br><br>
         <input type="submit" value="Calculate slpoe">
+		</form>
 
 			<iframe id="results" name="results">			
         <div id="$slope"></div>
-        <div id="$calculation"></div>
 	    </iframe>
 	</body>
 </html>
