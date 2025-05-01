@@ -6,8 +6,7 @@
 	
 	$slope = ($Y2int - $Y1int)/($X2int - $X1int);
 	$calculation = $Y2int - ($slope * $X2int);
-	$calculation = round($calculation,1);
 ?>
-<h3>Results:</h3>
+<h3>Result:</h3>
 Your slope is <?php echo "$slope" ?>
 Your y-int is <?php echo "$calculation" ?>
