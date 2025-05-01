@@ -31,7 +31,7 @@
         <input type="submit" value="Calculate slpoe">
 		</form>
 
-			<iframe id="results" name="results">			
+			<iframe id="results" name="results">		
         <div id="$slope"></div>
 	    </iframe>
 	</body>
