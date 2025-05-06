@@ -30,8 +30,10 @@
         <input type="submit" value="Calculate Slope">
     </form>
 
-    <!-- Display the result below the form -->
-    <h3>Result:</h3>
-    Your slope is: <?php echo "$slope"; ?>
+  <iframe id="result" name="result">
+        <div id="slopeResult">
+            <p>Your slope is: <?php echo $slope; ?></p>
+        </div>
+    </iframe>
 </body>
 </html>

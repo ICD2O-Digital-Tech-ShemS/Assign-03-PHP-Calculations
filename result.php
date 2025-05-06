@@ -7,4 +7,7 @@ $X2int = $_POST['X2int'] ?? null;
 
 // Calculate the slope (m = (y2 - y1) / (x2 - x1))
 $slope = ($Y2int - $Y1int) / ($X2int - $X1int);
+
+<h3>Result:</h3>
+Your slope is <?php echo "$slope" ?>
 ?>
