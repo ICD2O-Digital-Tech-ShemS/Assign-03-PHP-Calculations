@@ -15,7 +15,7 @@
     <h2>Formula: m = (y2 - y1) / (x2 - x1)</h2>
 
     <!-- Form to get rise and run values -->
-    <form action="" method="post">
+    <form action="./result" method="post">
         <p>Rise</p>
         <label for="Y1int">Y1:</label>
         <input type="number" step="any" name="Y1int" id="Y1int" placeholder="Y1int" required>
